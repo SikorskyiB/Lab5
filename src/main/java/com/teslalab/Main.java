@@ -1,5 +1,10 @@
 package com.teslalab;
 
+import com.images.Image;
+import com.images.decorators.ImageDecorator;
+import com.images.decorators.implementations.*;
+import com.processors.ImageProcessor;
+import com.processors.implementations.*;
 
 public class Main {
     public static void main(String[] args) {

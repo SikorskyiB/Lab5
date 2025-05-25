@@ -1,6 +1,11 @@
 package com.processors;
 
-
+import com.images.Image;
+import com.images.decorators.implementations.BlurFilter;
+import com.images.decorators.implementations.ParisFilter;
+import com.processors.implementations.FaceAnalyzer;
+import com.processors.implementations.ObjectDetector;
+import com.processors.implementations.ThreatsAssessor;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

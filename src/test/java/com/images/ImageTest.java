@@ -1,5 +1,7 @@
 package com.images;
 
+import com.images.decorators.implementations.BlurFilter;
+import com.images.decorators.implementations.ParisFilter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
